@@ -2,12 +2,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[]args){
-        Person person1 = new Person.Builder("Mario", "Rossi")
+        Person person1 = new Builder("Mario", "Rossi")
                 .age(30)
                 .address("Via Roma, 123")
                 .build();
 
-        Person person2 = new Person.Builder("Carla", "Bianchi")
+        Person person2 = new Builder("Carla", "Bianchi")
                 .age(25)
                 .build();
 
